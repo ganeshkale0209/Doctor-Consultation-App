@@ -52,7 +52,4 @@ Step 4: Run the Application
     Backend development for appointment booking
     Real-time communication implementation for doctor-patient interactions
 
-    ![WhatsApp Image 2025-02-15 at 23 16 13_c90ffa72](https://github.com/user-attachments/assets/7c0c3b01-7882-4b65-8cfd-dd5641c9d017)
-    ![WhatsApp Image 2025-02-15 at 23 16 14_62bed0b1](https://github.com/user-attachments/assets/8401d42a-fe3c-4b89-87d7-55ef38761e60)
-    ![WhatsApp Image 2025-02-15 at 23 16 14_b783a35e](https://github.com/user-attachments/assets/11ef5f8e-e2ba-45fa-a0ac-66509f2e3e64)
-    ![WhatsApp Image 2025-02-15 at 23 16 14_3c0dd68a](https://github.com/user-attachments/assets/27a3d423-9755-45ee-aeb4-773ee6cf8ad7)
+ 
