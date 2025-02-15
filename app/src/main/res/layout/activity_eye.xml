@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EyeActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="5dp"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+    <ImageView
+
+
+        android:id="@+id/doctor_photo"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/binoculars" />
+
+    <TextView
+        android:id="@+id/doctor_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="EYE Information"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/doctor_specialty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"
+        android:text="ophthalmologist"
+        android:textColor="@color/black"
+        android:textSize="26sp" />
+
+        <TextView
+        android:textColor="@color/black"
+        android:id="@+id/doctor_bio1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="The main parts of the eye are:
+
+\n\n1.Cornea: The cornea is the clear front part of the eye. It helps to focus light and protect the eye from dirt and dust.
+\n2.Iris: The iris is the colored part of the eye. It controls how much light enters the eye through the pupil.
+\n3.Pupil: The pupil is the black opening in the center of the iris. It gets bigger or smaller to let in more or less light.
+\n4.Lens: The lens is a clear structure behind the iris. It helps to focus light on the retina.
+\n5.Retina: The retina is a light-sensitive tissue that lines the back of the eye. It converts light into electrical signals that are sent to the brain.
+\n6.Optic nerve: The optic nerve is a bundle of nerves that carries signals from the retina to the brain."
+        android:textSize="20sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/loc3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card1_style"
+            android:text="click here to know \n best hospital near by you"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/baseline_location_on_24"/>
+
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Doctor2Activity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="5dp"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+
+
+            android:id="@+id/doctor_photo"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/doctor2" />
+
+        <TextView
+            android:id="@+id/doctor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Dr. Tom Smith"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/doctor_specialty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="italic"
+            android:text="Dentists"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/doctor_bio"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Dr. Tom Smith  is a board-certified cardiologist with over 10 years of experience. He specializes in the diagnosis and treatment of all types of heart disease, including coronary artery disease, heart failure, and arrhythmias."
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/doctor_bio"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="I believe that every patient is an individual, and I take the time to get to know each patient's unique needs and concerns. I am committed to working with my patients to develop a treatment plan that is right for them, and I am always available to answer their questions and offer support."
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/doctor_bio"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="In addition to my clinical work, I am also involved in teaching and research. I am a faculty member at [your medical school], and I regularly publish articles in medical journals. I am committed to advancing the field of medicine and helping to develop new treatments and cures for diseases."
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/doctor_bio"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="I am grateful for the opportunity to serve my patients and to make a difference in their lives. I am proud to be a doctor, and I look forward to many more years of providing quality healthcare to my community."
+            android:textSize="20sp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/doc2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="visite hospitals website"
+            android:background="@drawable/card1_style"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/form2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/card2_style"
+            android:text="Book Appointment "
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
